@@ -21,7 +21,7 @@ WORKDIR /EonlineCource/Backend/RegisterLogin/RegisterLogin
 COPY --from=build /EonlineCource/Backend/RegisterLogin/RegisterLogin/target/*.jar education.jar
 
 # Expose the application port (change if needed)
-EXPOSE 8080
+EXPOSE 80
 EXPOSE 8082
 
 # Command to run the application
